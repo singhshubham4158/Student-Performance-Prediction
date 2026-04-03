@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🎓 Student Performance Prediction
 
 An end-to-end Machine Learning project that predicts student academic performance using demographic and educational features, enabling early intervention and data-driven decision-making.
