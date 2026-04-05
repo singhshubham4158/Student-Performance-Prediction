@@ -54,6 +54,9 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
         raise CustomException(e, sys)
     
 def load_object(file_path):
+    print("File path:", file_path)
+    print("Absolute path:", os.path.abspath(file_path))
+    print("Exists?", os.path.exists(file_path))
     try:
         with open(file_path, "rb") as file_obj:
             return pickle.load(file_obj)
